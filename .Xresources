@@ -12,7 +12,7 @@ urxvt*secondaryScroll: true
 urxvt*font: -*-dejavu sans mono-medium-r-normal-*-11-*-*-*-*-*-*-*
 
 urxvt.urgentOnBell: True
-urxvt.urlLauncher: x-www-browser
+urxvt.urlLauncher: chromium
 urxvt.perl-ext-common: default,matcher
 urxvt.matcher.button: 1
 urxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]

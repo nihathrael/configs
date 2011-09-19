@@ -224,3 +224,12 @@ imap <ESC>Ow 7
 imap <ESC>Ox 8
 imap <ESC>Oy 9
 
+" tab navigation like firefox
+:nmap <C-S-tab> :tabprevious<CR>
+:nmap <C-tab> :tabnext<CR>
+:map <C-S-tab> :tabprevious<CR>
+:map <C-tab> :tabnext<CR>
+:imap <C-S-tab> <Esc>:tabprevious<CR>i
+:imap <C-tab> <Esc>:tabnext<CR>i
+:nmap <C-t> :tabnew<CR>
+:imap <C-t> <Esc>:tabnew<CR>
