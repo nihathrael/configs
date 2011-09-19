@@ -1,0 +1,28 @@
+# fix $TERM
+term screen-256color
+
+# detach on hangup
+autodetach on
+
+# don't display the copyright page
+startup_message off
+
+# 1000 lines of history
+defscrollback 1000
+
+#change the hardstatus settings to give an window list at the bottom of the
+#screen, with the time and date and with the current window highlighted
+hardstatus alwayslastline "%44=%{= kw}%-w%{= bw}[%n %t]%{= kw}%+w"
+
+# binds
+bind q quit
+
+bind n focus top
+bind r eval "focus top" "focus down"
+bind t focus bottom
+
+screen -t finch finch
+
+layout save foo
+
+
