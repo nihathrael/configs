@@ -231,5 +231,5 @@ imap <ESC>Oy 9
 :map <C-tab> :tabnext<CR>
 :imap <C-S-tab> <Esc>:tabprevious<CR>i
 :imap <C-tab> <Esc>:tabnext<CR>i
-:nmap <C-t> :tabnew<CR>
-:imap <C-t> <Esc>:tabnew<CR>
+:nmap <C-t> :tabnew<Space>
+:imap <C-t> <Esc>:tabnew<Space>
