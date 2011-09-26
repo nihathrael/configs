@@ -122,11 +122,11 @@ audio_toggle = function () awful.util.spawn("clementine -t") end
 
 -- {{{ programs
 fileman = function () awful.util.spawn("qtfm") end
-browser = chromium
+browser = function () awful.util.spawn("chromium") end
 urxvt = function () awful.util.spawn("urxvt") end
 screen_lock = function() awful.util.spawn("slock") end
 screenshot = function() awful.util.spawn("scrot") end
-xaakill = function() awful.util.spawn("xkill") end
+xkill = function() awful.util.spawn("xkill") end
 hibernate = function(wait)
     local cmd = "sudo s2disk"
     if wait ~= nil then
@@ -170,7 +170,7 @@ end
 -- }}}
 
 -- {{{ mail
-mail = function () run_or_raise("thunderbird") end
+mail = function () awful.util.spawn("thunderbird") end
 -- }}}
 
 -- }}}
