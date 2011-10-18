@@ -5,7 +5,6 @@ setxkbmap de neo
 setxkbmap -option terminate:ctrl_alt_bksp
 
 xrdb merge /home/nihathrael/.Xresources
-sparkleshare start &!
 cairo-compmgr &!
 
 # D-bus fix
