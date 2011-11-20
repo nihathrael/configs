@@ -164,7 +164,7 @@
         show_thumbnails = "true" 
         show_directory_date = "false" 
         home_path = "" 
-        last_path = "/home/nihathrael" 
+        last_path = "/home/nihathrael/data/uni" 
         startup_path = "0" 
         exit_on_close = "false" 
 
@@ -173,8 +173,8 @@
         main_window.w = "1278" 
         main_window.h = "779" 
         main_window.maximized = "false" 
-        main_window.hdivider_pos = "280" 
-        main_window.vdivider_pos = "200" 
+        main_window.hdivider_pos = "213" 
+        main_window.vdivider_pos = "188" 
 
         float_window.x = "0" 
         float_window.y = "0" 
