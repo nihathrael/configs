@@ -134,7 +134,7 @@ hibernate = function(wait)
     end
     awful.util.spawn(cmd)
 end
-suspend = function() awful.util.spawn("sudo s2ram --force") end
+suspend = function() awful.util.spawn("sudo pm-suspend") end
 shutdown = function() awful.util.spawn("sudo halt") end
 -- }}}
 
